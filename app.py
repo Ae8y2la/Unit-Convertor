@@ -204,7 +204,6 @@ def main():
             with st.spinner("Converting... 🔄"):
                 time.sleep(1)  
                 result = length_converter(value, from_unit, to_unit)
-                mixer.music.play()  
                 st.success(f"🎉 {value} {from_unit} = {result:.2f} {to_unit}")
                 st.balloons() 
                 st.markdown(f"**You're amazing! Keep converting like a pro! 💪**")
@@ -220,8 +219,7 @@ def main():
         if st.button("Convert 🚀"):
             with st.spinner("Converting... 🔄"):
                 time.sleep(1)  
-                result = weight_converter(value, from_unit, to_unit)
-                mixer.music.play()  
+                result = weight_converter(value, from_unit, to_unit)  
                 st.success(f"🎉 {value} {from_unit} = {result:.2f} {to_unit}")
                 st.balloons() 
                 st.markdown(f"**Wow! You're a conversion wizard! 🧙‍♂️**")
@@ -237,8 +235,7 @@ def main():
         if st.button("Convert 🚀"):
             with st.spinner("Converting... 🔄"):
                 time.sleep(1) 
-                result = temperature_converter(value, from_unit, to_unit)
-                mixer.music.play()  
+                result = temperature_converter(value, from_unit, to_unit)  
                 st.success(f"🎉 {value} {from_unit} = {result:.2f} {to_unit}")
                 st.balloons() 
                 st.markdown(f"**You're on fire! 🔥 Keep it up!**")
