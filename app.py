@@ -1,18 +1,6 @@
 import time
 import os
 import streamlit as st
-from pygame import mixer
-
-# Check if running on Streamlit Cloud
-IS_STREAMLIT_CLOUD = os.getenv("IS_STREAMLIT_CLOUD", "False").lower() == "true"
-
-# Initialize sound mixer (only if not on Streamlit Cloud)
-if not IS_STREAMLIT_CLOUD:
-    try:
-        mixer.init()
-        mixer.music.load("shine-11-268907.mp3")
-    except Exception as e:
-        st.warning(f"Audio functionality disabled: {e}")
 
 # Set page config for title
 st.set_page_config(page_title="Unit Converter", page_icon="📏")
