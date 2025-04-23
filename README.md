@@ -15,4 +15,4 @@ With a user-friendly interface, fun animations, this app makes unit conversion a
 
 💮💮
 
-**REACH ME OUT📧:"aeylanaseer@gmail.com"**
+**REACH ME OUT ON DISCORD 👾:"user6790.h"**
